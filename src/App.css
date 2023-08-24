@@ -1,38 +1,231 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#page1{
+  height: 45rem;
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-bar{
+  font-family: 'Alata', sans-serif;
+  display: grid;
+  grid-template-columns: 50% 10% 10% 10% 10% 10%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-bar .company-logo{
+  background-image: url(./images/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#page1-content{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 72px;
+  margin-top: 20%;
+  border: 2px solid white;
+  width: 45%;
+  height: 20rem;
+}
+#page1-content p{
+  margin-top: 0px;
+  padding-left: 3rem;
+  padding-top: 3.75rem;
+}
+#page2{
+  padding: 5rem;
+  height: 55rem;
+}
+.page2-content-container{
+  display: grid;
+  grid-template-columns: 55% 45%;
+  width: 80%;
+  margin-left: 10%;
+  height: 35rem;
+  margin-top: 10rem;
+}
+.illustration{
+  background-image: url(./images/desktop/image-interactive.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page2-content-container .text-content{
+  margin-top: 0px;
+}
+.text-content #overlap-box{
+  background-image: url(./images/Rectangle1.png);
+  height: 168px;
+  width: 168px;
+  margin-top: 0px;
+}
+.page2-content-container .text-content h1{
+  margin-left: 4.5rem;
+  margin-top: 7.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+.page2-content-container .text-content p{
+  margin-left: 4.5rem;
+  color: hsl(0, 0%, 55%);
+  font-family: 'Alata', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+#page3{
+  padding: 5rem;
+  height: 100rem;
+}
+#page3-descriptor-row{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#page3-descriptor-row #creations-text{
+  font-size: 48px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#page3-descriptor-row #see-all-text{
+  margin-left: 80%;
+}
+#page3-descriptor-row #see-all-text button{
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+}
+.creation-grid{
+  margin-top: 20rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 22.75% 22.75% 22.75% 22.75%;
+  gap: 2.5rem;
+}
+.creation-grid .creation-card{
+  height: 27.5rem;
+  border: 1px solid black;
+}
+.creation-grid p{
+  width: 60%;
+  font-size: 36px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 21.5rem;
+  margin-left: 2.5rem;
+}
+#deep-earth-img{
+  background-image: url(./images/desktop/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#night-arcade-img{
+  /* background-image: url(./images/desktop/image-night-arcade.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#soccer-team-vr-img{
+  /* background-image: url(./images/desktop/image-soccer-team.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#the-grid-img{
+  /* background-image: url(./images/desktop/image-grid.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#up-above-vr-img{
+  /* background-image: url(./images/desktop/image-from-above.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#up-above-vr-img p{
+  width: 50%;
+  margin-top: 21rem;
+}
+#pocket-borealis-img{
+  background-image: url(./images/desktop/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#curiosity-img{
+  background-image: url(./images/desktop/image-curiosity.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fisheye-img{
+  background-image: url(./images/desktop/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#page-footer{
+  height: 10rem;
+  padding: 5rem;
+}
+#page-footer{
+  color: white;
+  background-color: hsl(0, 0%, 0%);
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.company-links-column{
+  width: 75%;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+.company-links{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+#page-footer .company-logo{
+  background-image: url(./images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30%;
+}
+.company-social-media{
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+#social-media-row{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+#facebook-icon{
+  height: 50%;
+  background-image: url(./images/icon-facebook.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#pinterest-icon{
+  height: 50%;
+  background-image: url(./images/icon-instagram.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#instagram-icon{ 
+  height: 50%;
+  background-image: url(./images/icon-pinterest.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#twitter-icon{
+  height: 50%;
+  background-image: url(./images/icon-twitter.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#copyrights-text p{
+  margin-left: 47.5%;
+}
+.attribution { 
+  margin-top: 3rem;
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
