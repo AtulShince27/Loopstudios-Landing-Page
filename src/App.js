@@ -56,7 +56,7 @@ function App() {
             <div className="creation-card" id='soccer-team-vr-img'>
               <p>SOCCER TEAM VR</p>
             </div>
-            <div className="creation-card" id='the-grid-img'>
+            <div className="creation-card" id='the-grid-img'>``
               <p>THE GRID</p>
             </div>
             <div className="creation-card" id='up-above-vr-img'>
