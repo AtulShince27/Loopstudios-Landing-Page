@@ -3,7 +3,6 @@ import './App.css';
 import * as React from 'react';
 import DrawerAppBar from './components/navigation-bar';
 import { StyledEngineProvider } from '@mui/material';
-import image from './images/desktop/image-grid.jpg'
 function App() {
   return (
     <div className="App">
@@ -58,7 +57,6 @@ function App() {
               <p>SOCCER TEAM VR</p>
             </div>
             <div className="creation-card" id='the-grid-img'>
-              <img src={image} alt="" />
               <p>THE GRID</p>
             </div>
             <div className="creation-card" id='up-above-vr-img'>
