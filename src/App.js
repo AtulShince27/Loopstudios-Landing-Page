@@ -1,20 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import * as React from 'react';
-import DrawerAppBar from './components/navigation-bar';
-import { StyledEngineProvider } from '@mui/material';
+import OffcanvasExample from './components/navigation-bar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App">
       <div id="main-website">
         <div id="page1">
           <div class="nav-bar">
-            <div className="company-logo"></div>
-            <div className="nav-items">About</div>
-            <div className="nav-items">Careers</div>
-            <div className="nav-items">Events</div>
-            <div className="nav-items">Products</div>
-            <div className="nav-items">Support</div>
+            <OffcanvasExample></OffcanvasExample>
           </div>
           <div id="page1-content">
             <p>IMMERSIVE EXPERIENCES THAT DELIVER</p>
