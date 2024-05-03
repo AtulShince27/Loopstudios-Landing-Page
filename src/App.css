@@ -144,7 +144,7 @@
 }
 
 /* Styles for mobile phones */
-@media screen and (min-width: 375px) and (max-width: 768px){
+@media screen and (min-width: 350px) and (max-width: 768px){
 
   #page1 {
     background-image: url(./images/mobile/image-hero.jpg);
